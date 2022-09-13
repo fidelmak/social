@@ -8,9 +8,10 @@ const xApp = {
 
 const App = () => {
   return (
-    <div style={xApp}>
-        <New />
+    <div >
+        
         <Navbar />
+        <New />
     </div>
   )
 }
