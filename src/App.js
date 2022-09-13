@@ -1,6 +1,7 @@
 import React from 'react'
 import New from './New'
 import Navbar from './Navbar'
+import FetchApi from './FetchApi'
 
 const xApp = {
     backgroundColor:'red'
@@ -12,6 +13,7 @@ const App = () => {
         
         <Navbar />
         <New />
+        <FetchApi />
     </div>
   )
 }
