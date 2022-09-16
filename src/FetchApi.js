@@ -25,9 +25,19 @@ const DisplayData= user.map(
     (info)=>{
         return(
             <tr>
-                <td>{info.id}</td>
-                <td>{info.name}</td>
-                <td>{info.city}</td>
+                <td>{info.risk_ratio}</td>
+                <td>{info.nigerian_stocks}</td>
+                <td>{info.foreign_stocks}</td>
+                <td>{info.tech_stocks}</td>
+                <td>{info.emerging_stocks}</td>
+                <td>{info.nigeria_bonds}</td>
+                <td>{info.foreign_bonds}</td>
+                <td>{info.commodities}</td>
+                <td>{info.real_estate}</td>
+                <td>{info.t_bills}</td>
+                <td>{info.alternative}</td>
+
+
             </tr>
         )
     }
@@ -35,11 +45,18 @@ const DisplayData= user.map(
 
 return(
     <div>
-        <table class="table table-striped">
+        <table className="table table-striped">
             <thead>
-                <tr>
+                <tr className="m-2">
                 <th>Sr.NO</th>
                 <th>Name</th>
+                <th>City</th>
+                <th>City</th>
+                <th>City</th>
+                <th>City</th>
+                <th>City</th>
+                <th>City</th>
+                <th>City</th>
                 <th>City</th>
                 </tr>
             </thead>
