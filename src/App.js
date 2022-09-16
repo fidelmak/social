@@ -3,9 +3,7 @@ import New from './New'
 import Navbar from './Navbar'
 import FetchApi from './FetchApi'
 
-const xApp = {
-    backgroundColor:'red'
-}
+
 
 const App = () => {
   return (
@@ -13,7 +11,7 @@ const App = () => {
         
         <Navbar />
         <New />
-        <FetchApi />
+        <FetchApi /> 
     </div>
   )
 }

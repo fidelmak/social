@@ -5,13 +5,6 @@ import axios from 'axios'
 
 const FetchApi =()=>{
 
-//  async function fetchApi (){
-//     var  response = await fetch("https://jsonplaceholder.typicode.com/users")
-//     console.log(await response.json())
-
-    
-    
-// }
 
 const[user , setUser] = useState([
 
@@ -28,26 +21,49 @@ const handleAxios = ()=>{
     .catch(err=>console.log(err))
 }
 
+const DisplayData= user.map(
+    (info)=>{
+        return(
+            <tr>
+                <td>{info.id}</td>
+                <td>{info.name}</td>
+                <td>{info.city}</td>
+            </tr>
+        )
+    }
+)
 
-const loopData= user.map(data=>{
-    return <div>
-        <h5 style={{backgroundColor:"black", color:"white"}}>Username:{data.commodities}</h5>
-        <h5 style={{backgroundColor:"#36ba9e", color:"white"}}>Email:{data.alternative}</h5>
-        <h5>Portfolio website: {data.nigeria_stocks}</h5>
-        <hr />
-    </div>
-})
-    return <>
+return(
     <div>
-        <h1>Hello fetch</h1>
-        <button  type="button" style={{backgroundColor:"black", color:"white", borderRadius:"20px"}} onClick={handleAxios}>Get data using Axios</button> 
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th>Sr.NO</th>
+                <th>Name</th>
+                <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+             
+                
+                {DisplayData}
+                
+            </tbody>
+        </table>
+        <h1>Hello fetch <button  type="button" style={{backgroundColor:"black", color:"white", borderRadius:"20px"}} onClick={handleAxios}>Get data using Axios</button> </h1>
+        
         <br />
-
-       <br />
-       <br />
-        {loopData}
-
+         
     </div>
-    </>
+)
+
+
+      
+      
+      
+      
+
+   
+ 
 }
 export default FetchApi
