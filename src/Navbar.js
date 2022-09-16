@@ -18,15 +18,15 @@ const Navbar = () => {
                     <ul className='flex '>
                     
                     <li>
-                    <a href="/" class="block py-2 pr-4 pl-3  hover:text-white  text-gray-100" aria-current="page"> Home </a>  
+                    <a href="/#home" class="block py-2 pr-4 pl-3  hover:text-white  text-gray-100" aria-current="page"> HOME </a>  
 
                     </li>
                     <li>
-                    <a href="/" class="block py-2 pr-4 pl-3 hover:text-white text-gray-100"> About </a>  
+                    <a href="#span" class="block py-2 pr-4 pl-3 hover:text-white text-gray-100"> RISKS </a>  
 
                     </li>
                     <li>
-                    <a href="/" class="block py-2 pr-4 pl-3 hover:text-white text-gray-100" > Contact </a>  
+                    <a href="#contact" class="block py-2 pr-4 pl-3 hover:text-white text-gray-100" > CONTACT </a>  
 
                     </li>
                     

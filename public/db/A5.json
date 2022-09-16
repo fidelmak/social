@@ -1,0 +1,16 @@
+[
+    {
+        "risk_ratio": 4,
+        "nigerian_stocks": 29,
+        "foreign_stocks": 7,
+        "tech_stocks": 5,
+        "emerging_stocks": 6,
+        "nigeria_bonds": 35,
+        "foreign_bonds": 6,
+        "commodities": 12,
+        "real_estate": 0,
+        "t_bills": 0,
+        "alternative": 0
+    }
+    
+]

@@ -15873,6 +15873,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
+.table-auto{
+  table-layout: auto;
+}
 
 .bg-primary{
   --tw-bg-opacity: 1;
