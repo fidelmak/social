@@ -121,15 +121,15 @@ const DisplayData= user.map(
         return(
             <div className='text-xl mb-4'>
                 
-                <h1 className='bg-gray-100 mb-2'>nigerian_stocks: <button className='bg-red-50 ml-7 w-40'>{info.nigerian_stocks}</button></h1>
-                <h1 className='mb-2'>foreign_stocks: <button className='bg-red-100 ml-7 w-40'>{info.foreign_stocks}</button></h1>
-                <h1 className='bg-gray-100 mb-2'>tech_stocks:<button className='bg-red-50 ml-7 w-40'>{info.tech_stocks}</button></h1>
-                <h1 className='mb-2'>emerging_stocks:<button className='bg-red-100 ml-7 w-40'>{info.emerging_stocks}</button></h1>
-                <h1 className='bg-gray-100 mb-2'>nigeria_bonds:<button className='bg-red-50 ml-7 w-40'>{info.nigeria_bonds}</button></h1>
-                <h1  className='mb-2'>foreign_bonds:<button className='bg-red-100 ml-7 w-40'>{info.foreign_bonds}</button></h1>
-                <h1 className='bg-gray-100 mb-2'>info.commodities:<button className='bg-red-50 ml-7 w-40'>{info.commodities}</button></h1>
-                <h1  className='mb-2'>real_estate:<button className='bg-red-100 ml-7 w-40'>{info.real_estate}</button></h1>
-                <h1 className='bg-gray-100 mb-2'>t_bills:<button className='bg-red-50 ml-7 w-40'>{info.t_bills}</button> </h1>
+                <h1 className='bg-gray-100 mb-2'>Nigerian_stocks: <button className='bg-red-50 ml-7 w-40'>{info.nigerian_stocks}</button></h1>
+                <h1 className='mb-2'>Foreign_stocks: <button className='bg-red-100 ml-7 w-40'>{info.foreign_stocks}</button></h1>
+                <h1 className='bg-gray-100 mb-2'>Tech_stocks:<button className='bg-red-50 ml-7 w-40'>{info.tech_stocks}</button></h1>
+                <h1 className='mb-2'>Emerging_stocks:<button className='bg-red-100 ml-7 w-40'>{info.emerging_stocks}</button></h1>
+                <h1 className='bg-gray-100 mb-2'>Nigeria_bonds:<button className='bg-red-50 ml-7 w-40'>{info.nigeria_bonds}</button></h1>
+                <h1  className='mb-2'>Foreign_bonds:<button className='bg-red-100 ml-7 w-40'>{info.foreign_bonds}</button></h1>
+                <h1 className='bg-gray-100 mb-2'>Commodities:<button className='bg-red-50 ml-7 w-40'>{info.commodities}</button></h1>
+                <h1  className='mb-2'>Real_estate:<button className='bg-red-100 ml-7 w-40'>{info.real_estate}</button></h1>
+                <h1 className='bg-gray-100 mb-2'>T_bills:<button className='bg-red-50 ml-7 w-40'>{info.t_bills}</button> </h1>
                 <h1>alternative:<button className='bg-red-100 ml-7 w-40'>{info.alternative}</button></h1>
 
 
@@ -145,16 +145,16 @@ return(<>
         <div>
        
         <h1 className='md:flex'><button  type="button" style={{backgroundColor:"black", color:"white", width:'100px', margin:"10px"}} onClick={handleAxios}>Risk:0</button> 
-        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"10px"}} onClick={handle2}>Risk:1</button>
-        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"10px"}} onClick={handle3}>Risk:2</button>
-        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"10px"}} onClick={handle4}>Risk:3</button>
-        <button  type="button" style={{backgroundColor:"black", color:"white", width:'100px', margin:"10px"}} onClick={handle5}>Risk:4</button>
-        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"10px"}} onClick={handle6}>Risk:5</button> 
-        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"10px"}} onClick={handle7}>Risk:6</button>
-        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"10px"}} onClick={handle8}>Risk:7</button>
-        <button  type="button" style={{backgroundColor:"black", color:"white", width:'100px', margin:"10px"}} onClick={handle9}>Risk:8</button>
-        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"10px"}} onClick={handle10}>Risk:9</button>
-        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"10px"}} onClick={handle11}>Risk:10</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"8px"}} onClick={handle2}>Risk:1</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"8px"}} onClick={handle3}>Risk:2</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"8px"}} onClick={handle4}>Risk:3</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white", width:'100px', margin:"8px"}} onClick={handle5}>Risk:4</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"8px"}} onClick={handle6}>Risk:5</button> 
+        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"8px"}} onClick={handle7}>Risk:6</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"8px"}} onClick={handle8}>Risk:7</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white", width:'100px', margin:"8px"}} onClick={handle9}>Risk:8</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"8px"}} onClick={handle10}>Risk:9</button>
+        <button  type="button" style={{backgroundColor:"black", color:"white",  width:'100px', margin:"8px"}} onClick={handle11}>Risk:10</button>
 
         
         
