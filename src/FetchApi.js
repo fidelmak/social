@@ -176,7 +176,7 @@ return(<>
        
         </div>
        <div>
-        <img src={img} alt="img1" className=" item-center sm:mx-5 md:ml-5 md:mt-1 mt-8 w-200 h-48 sm:h-80 object-cover " /> <div className=" btn md:ml-5 mt-8 w-28 bg-secondary-100 text-secondary-200 hover:text-black ">Load more</div>
+        <img src={img} alt="img1" className=" item-center mr-3 sm:mx-5 md:ml-5 md:mt-1 mt-8 w-200 h-48 sm:h-80 object-cover " /> <div className=" btn md:ml-5 mt-8 w-28 bg-secondary-100 text-secondary-200 hover:text-black ">Load more</div>
         </div>
     </div>
     </>
